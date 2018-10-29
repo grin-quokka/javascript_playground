@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>구구단 구현</title>
+</head>
+<body>
+  <h3>구구단 구현</h3>
+  <script type="text/javascript">
+    var n = prompt("몇 단을 출력할까요?"); //문자열 입력 받기
+
+    var X = Number(n); //숫자열로 바꾸기
+    //구구단에 해당되지 않으면, 다시 값 받기
+    while (X > 9 || X < 2 {
+      n = prompt("2 이상 9 이하의 값만 가능합니다.");
+      var X = Number(n);
+    }
+    for (var i = 1; i < 10; i++) {
+    result = X * i ;
+    // 구구단 결과 값 화면에 출력
+    document.write( X + " * " + i + " = " + result + "<br>");
+  }
+  /*
+    if (X < 10 && X > 1){
+      for (var i = 1; i < 10; i++) {
+      result = X * i ;
+      // 구구단 결과 값 화면에 출력
+      document.write( X + " * " + i + " = " + result + "<br>");
+    }} else {
+      alert("2 이상 9 이하의 값만 가능합니다.");
+    }
+*/
+  </script>
+</body>
+</html>
